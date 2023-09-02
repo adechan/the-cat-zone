@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        ".\\backend\\cat-zone-api\\Cargo.toml"
+    ]
+}

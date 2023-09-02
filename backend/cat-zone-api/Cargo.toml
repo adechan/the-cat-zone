@@ -1,0 +1,15 @@
+[package]
+name = "the-cat-zone"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.6"
+rustls = "0.21"
+
+[dependencies.tokio]
+version = "1"
+features = ["macros", "rt-multi-thread"]
+
+[dependencies.tower]
+version = "0.4"
